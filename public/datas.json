@@ -1,0 +1,220 @@
+{
+  "organization": {
+    "id": "org_123456",
+    "name": "Acme Corporation",
+    "plan": "Starter",
+    "currency": "USD",
+    "createdAt": "2024-01-15T00:00:00Z"
+  },
+  "transactions": [
+    {
+      "id": "tx_001",
+      "date": "2026-02-05T10:30:00Z",
+      "description": "Campagne Google Ads - Février",
+      "amount": 200.09,
+      "category": "ad_spending",
+      "status": "completed",
+      "accountId": "ad_account_001"
+    },
+    {
+      "id": "tx_002",
+      "date": "2026-02-04T14:20:00Z",
+      "description": "Campagne Facebook Ads - Semaine 5",
+      "amount": 185.50,
+      "category": "ad_spending",
+      "status": "completed",
+      "accountId": "ad_account_002"
+    },
+    {
+      "id": "tx_003",
+      "date": "2026-02-03T09:15:00Z",
+      "description": "Campagne LinkedIn Ads",
+      "amount": 210.30,
+      "category": "ad_spending",
+      "status": "completed",
+      "accountId": "ad_account_001"
+    },
+    {
+      "id": "tx_004",
+      "date": "2026-02-02T16:45:00Z",
+      "description": "Campagne Google Ads - Display",
+      "amount": 175.80,
+      "category": "ad_spending",
+      "status": "completed",
+      "accountId": "ad_account_001"
+    },
+    {
+      "id": "tx_005",
+      "date": "2026-02-01T11:10:00Z",
+      "description": "Campagne Instagram Stories",
+      "amount": 195.25,
+      "category": "ad_spending",
+      "status": "completed",
+      "accountId": "ad_account_002"
+    },
+    {
+      "id": "tx_006",
+      "date": "2026-01-31T08:30:00Z",
+      "description": "Campagne Google Ads - Janvier",
+      "amount": 165.40,
+      "category": "ad_spending",
+      "status": "completed",
+      "accountId": "ad_account_001"
+    },
+    {
+      "id": "tx_007",
+      "date": "2026-01-30T13:25:00Z",
+      "description": "Campagne TikTok",
+      "amount": 220.15,
+      "category": "ad_spending",
+      "status": "completed",
+      "accountId": "ad_account_003"
+    },
+    {
+      "id": "tx_008",
+      "date": "2026-02-04T22:10:00Z",
+      "description": "Dépôt - Virement bancaire",
+      "amount": 5000.00,
+      "category": "deposit",
+      "status": "pending",
+      "accountId": "wallet_001"
+    },
+    {
+      "id": "tx_009",
+      "date": "2026-02-02T19:30:00Z",
+      "description": "Allocation mensuelle - Équipe Marketing",
+      "amount": 2500.00,
+      "category": "allocation",
+      "status": "completed",
+      "accountId": "team_wallet_001"
+    },
+    {
+      "id": "tx_010",
+      "date": "2026-02-01T15:20:00Z",
+      "description": "Allocation - Équipe Produit",
+      "amount": 1800.00,
+      "category": "allocation",
+      "status": "completed",
+      "accountId": "team_wallet_002"
+    },
+    {
+      "id": "tx_011",
+      "date": "2026-01-28T12:00:00Z",
+      "description": "Retrait - Facture prestataire",
+      "amount": 3200.00,
+      "category": "withdrawal",
+      "status": "pending",
+      "accountId": "wallet_001"
+    },
+    {
+      "id": "tx_012",
+      "date": "2026-02-03T10:00:00Z",
+      "description": "Frais de plateforme",
+      "amount": 342.50,
+      "category": "fees",
+      "status": "completed",
+      "accountId": "org_fees"
+    },
+    {
+      "id": "tx_013",
+      "date": "2026-01-15T00:00:00Z",
+      "description": "Campagne Google Ads - Mi-janvier",
+      "amount": 4520.75,
+      "category": "ad_spending",
+      "status": "completed",
+      "accountId": "ad_account_001"
+    },
+    {
+      "id": "tx_014",
+      "date": "2026-01-10T00:00:00Z",
+      "description": "Campagne Facebook - Janvier",
+      "amount": 3890.50,
+      "category": "ad_spending",
+      "status": "completed",
+      "accountId": "ad_account_002"
+    },
+    {
+      "id": "tx_015",
+      "date": "2026-01-05T00:00:00Z",
+      "description": "Dépôt initial",
+      "amount": 15000.00,
+      "category": "deposit",
+      "status": "completed",
+      "accountId": "wallet_001"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "wallet_001",
+      "type": "organization",
+      "name": "Portefeuille principal",
+      "balance": 12580.75
+    },
+    {
+      "id": "wallet_002",
+      "type": "personal",
+      "name": "Portefeuille personnel",
+      "balance": 3500.00
+    },
+    {
+      "id": "team_wallet_001",
+      "type": "team",
+      "name": "Équipe Marketing",
+      "balance": 4300.00
+    },
+    {
+      "id": "team_wallet_002",
+      "type": "team",
+      "name": "Équipe Produit",
+      "balance": 5200.00
+    },
+    {
+      "id": "ad_account_001",
+      "type": "ad_account",
+      "name": "Google Ads",
+      "platform": "Google"
+    },
+    {
+      "id": "ad_account_002",
+      "type": "ad_account",
+      "name": "Meta Ads",
+      "platform": "Facebook/Instagram"
+    },
+    {
+      "id": "ad_account_003",
+      "type": "ad_account",
+      "name": "TikTok Ads",
+      "platform": "TikTok"
+    }
+  ],
+  "teams": [
+    {
+      "id": "team_001",
+      "name": "Marketing",
+      "memberCount": 8,
+      "walletId": "team_wallet_001"
+    },
+    {
+      "id": "team_002",
+      "name": "Produit",
+      "memberCount": 12,
+      "walletId": "team_wallet_002"
+    },
+    {
+      "id": "team_003",
+      "name": "Ventes",
+      "memberCount": 15,
+      "walletId": null
+    }
+  ],
+  "periods": {
+    "current": {
+      "start": "2026-01-07T00:00:00Z",
+      "end": "2026-02-06T23:59:59Z"
+    },
+    "previous": {
+      "start": "2025-12-08T00:00:00Z",
+      "end": "2026-01-06T23:59:59Z"
+    }
+  }
+}
